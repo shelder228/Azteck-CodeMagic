@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		499C5BEA2E05BAF20016170B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 499C5BCB2E05BAF00016170B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 499C5BD22E05BAF00016170B;
+			remoteInfo = "Aztok Collapse";
+		};
+		499C5BF42E05BAF20016170B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 499C5BCB2E05BAF00016170B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 499C5BD22E05BAF00016170B;
+			remoteInfo = "Aztok Collapse";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		499C5BD32E05BAF00016170B /* Aztok Collapse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aztok Collapse.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		499C5BE92E05BAF20016170B /* Aztok CollapseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aztok CollapseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		499C5BF32E05BAF20016170B /* Aztok CollapseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aztok CollapseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		499C5BFB2E05BAF20016170B /* Exceptions for "Aztok Collapse" folder in "Aztok Collapse" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 499C5BD22E05BAF00016170B /* Aztok Collapse */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		499C5BD52E05BAF00016170B /* Aztok Collapse */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				499C5BFB2E05BAF20016170B /* Exceptions for "Aztok Collapse" folder in "Aztok Collapse" target */,
+			);
+			path = "Aztok Collapse";
+			sourceTree = "<group>";
+		};
+		499C5BEC2E05BAF20016170B /* Aztok CollapseTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Aztok CollapseTests";
+			sourceTree = "<group>";
+		};
+		499C5BF62E05BAF20016170B /* Aztok CollapseUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Aztok CollapseUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		499C5BD02E05BAF00016170B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499C5BE62E05BAF20016170B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499C5BF02E05BAF20016170B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		499C5BCA2E05BAF00016170B = {
+			isa = PBXGroup;
+			children = (
+				499C5BD52E05BAF00016170B /* Aztok Collapse */,
+				499C5BEC2E05BAF20016170B /* Aztok CollapseTests */,
+				499C5BF62E05BAF20016170B /* Aztok CollapseUITests */,
+				499C5BD42E05BAF00016170B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		499C5BD42E05BAF00016170B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				499C5BD32E05BAF00016170B /* Aztok Collapse.app */,
+				499C5BE92E05BAF20016170B /* Aztok CollapseTests.xctest */,
+				499C5BF32E05BAF20016170B /* Aztok CollapseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		499C5BD22E05BAF00016170B /* Aztok Collapse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 499C5BFC2E05BAF20016170B /* Build configuration list for PBXNativeTarget "Aztok Collapse" */;
+			buildPhases = (
+				499C5BCF2E05BAF00016170B /* Sources */,
+				499C5BD02E05BAF00016170B /* Frameworks */,
+				499C5BD12E05BAF00016170B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				499C5BD52E05BAF00016170B /* Aztok Collapse */,
+			);
+			name = "Aztok Collapse";
+			packageProductDependencies = (
+			);
+			productName = "Aztok Collapse";
+			productReference = 499C5BD32E05BAF00016170B /* Aztok Collapse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		499C5BE82E05BAF20016170B /* Aztok CollapseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 499C5C012E05BAF20016170B /* Build configuration list for PBXNativeTarget "Aztok CollapseTests" */;
+			buildPhases = (
+				499C5BE52E05BAF20016170B /* Sources */,
+				499C5BE62E05BAF20016170B /* Frameworks */,
+				499C5BE72E05BAF20016170B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				499C5BEB2E05BAF20016170B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				499C5BEC2E05BAF20016170B /* Aztok CollapseTests */,
+			);
+			name = "Aztok CollapseTests";
+			packageProductDependencies = (
+			);
+			productName = "Aztok CollapseTests";
+			productReference = 499C5BE92E05BAF20016170B /* Aztok CollapseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		499C5BF22E05BAF20016170B /* Aztok CollapseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 499C5C042E05BAF20016170B /* Build configuration list for PBXNativeTarget "Aztok CollapseUITests" */;
+			buildPhases = (
+				499C5BEF2E05BAF20016170B /* Sources */,
+				499C5BF02E05BAF20016170B /* Frameworks */,
+				499C5BF12E05BAF20016170B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				499C5BF52E05BAF20016170B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				499C5BF62E05BAF20016170B /* Aztok CollapseUITests */,
+			);
+			name = "Aztok CollapseUITests";
+			packageProductDependencies = (
+			);
+			productName = "Aztok CollapseUITests";
+			productReference = 499C5BF32E05BAF20016170B /* Aztok CollapseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		499C5BCB2E05BAF00016170B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					499C5BD22E05BAF00016170B = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					499C5BE82E05BAF20016170B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 499C5BD22E05BAF00016170B;
+					};
+					499C5BF22E05BAF20016170B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 499C5BD22E05BAF00016170B;
+					};
+				};
+			};
+			buildConfigurationList = 499C5BCE2E05BAF00016170B /* Build configuration list for PBXProject "Aztok Collapse" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 499C5BCA2E05BAF00016170B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 499C5BD42E05BAF00016170B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				499C5BD22E05BAF00016170B /* Aztok Collapse */,
+				499C5BE82E05BAF20016170B /* Aztok CollapseTests */,
+				499C5BF22E05BAF20016170B /* Aztok CollapseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		499C5BD12E05BAF00016170B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499C5BE72E05BAF20016170B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499C5BF12E05BAF20016170B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		499C5BCF2E05BAF00016170B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499C5BE52E05BAF20016170B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499C5BEF2E05BAF20016170B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		499C5BEB2E05BAF20016170B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 499C5BD22E05BAF00016170B /* Aztok Collapse */;
+			targetProxy = 499C5BEA2E05BAF20016170B /* PBXContainerItemProxy */;
+		};
+		499C5BF52E05BAF20016170B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 499C5BD22E05BAF00016170B /* Aztok Collapse */;
+			targetProxy = 499C5BF42E05BAF20016170B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		499C5BFD2E05BAF20016170B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Aztok Collapse/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Aztok Collapse";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeLeft;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktxpvlfcalpb.zaeoosutsmlo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		499C5BFE2E05BAF20016170B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Aztok Collapse/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Aztok Collapse";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeLeft;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktxpvlfcalpb.zaeoosutsmlo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		499C5BFF2E05BAF20016170B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		499C5C002E05BAF20016170B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		499C5C022E05BAF20016170B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktxpvlfcalpb.zaeoosutsmlo.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aztok Collapse.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Aztok Collapse";
+			};
+			name = Debug;
+		};
+		499C5C032E05BAF20016170B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktxpvlfcalpb.zaeoosutsmlo.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aztok Collapse.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Aztok Collapse";
+			};
+			name = Release;
+		};
+		499C5C052E05BAF20016170B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktxpvlfcalpb.zaeoosutsmlo.UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Aztok Collapse";
+			};
+			name = Debug;
+		};
+		499C5C062E05BAF20016170B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktxpvlfcalpb.zaeoosutsmlo.UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Aztok Collapse";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		499C5BCE2E05BAF00016170B /* Build configuration list for PBXProject "Aztok Collapse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499C5BFF2E05BAF20016170B /* Debug */,
+				499C5C002E05BAF20016170B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		499C5BFC2E05BAF20016170B /* Build configuration list for PBXNativeTarget "Aztok Collapse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499C5BFD2E05BAF20016170B /* Debug */,
+				499C5BFE2E05BAF20016170B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		499C5C012E05BAF20016170B /* Build configuration list for PBXNativeTarget "Aztok CollapseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499C5C022E05BAF20016170B /* Debug */,
+				499C5C032E05BAF20016170B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		499C5C042E05BAF20016170B /* Build configuration list for PBXNativeTarget "Aztok CollapseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499C5C052E05BAF20016170B /* Debug */,
+				499C5C062E05BAF20016170B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 499C5BCB2E05BAF00016170B /* Project object */;
+}
